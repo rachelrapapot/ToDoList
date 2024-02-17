@@ -1,5 +1,5 @@
 const Config = {
-    apiUrl: "https://localhost:7124" // כתובת ה־API כברירת מחדל
+    apiUrl: "process.env.REACT_APP_API_URL" // 
   };
   
   export default Config;
